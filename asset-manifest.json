@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/atalykov-notes-app/static/css/main.43f994f1.chunk.css",
+    "main.js": "/atalykov-notes-app/static/js/main.cd3a4693.chunk.js",
+    "main.js.map": "/atalykov-notes-app/static/js/main.cd3a4693.chunk.js.map",
+    "runtime-main.js": "/atalykov-notes-app/static/js/runtime-main.6b7f9794.js",
+    "runtime-main.js.map": "/atalykov-notes-app/static/js/runtime-main.6b7f9794.js.map",
+    "static/js/2.be0e888a.chunk.js": "/atalykov-notes-app/static/js/2.be0e888a.chunk.js",
+    "static/js/2.be0e888a.chunk.js.map": "/atalykov-notes-app/static/js/2.be0e888a.chunk.js.map",
+    "static/js/3.37f2fe7d.chunk.js": "/atalykov-notes-app/static/js/3.37f2fe7d.chunk.js",
+    "static/js/3.37f2fe7d.chunk.js.map": "/atalykov-notes-app/static/js/3.37f2fe7d.chunk.js.map",
+    "index.html": "/atalykov-notes-app/index.html",
+    "static/css/main.43f994f1.chunk.css.map": "/atalykov-notes-app/static/css/main.43f994f1.chunk.css.map",
+    "static/js/2.be0e888a.chunk.js.LICENSE.txt": "/atalykov-notes-app/static/js/2.be0e888a.chunk.js.LICENSE.txt",
+    "static/media/DescNote.css": "/atalykov-notes-app/static/media/notesBackground.d9730bb3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b7f9794.js",
+    "static/js/2.be0e888a.chunk.js",
+    "static/css/main.43f994f1.chunk.css",
+    "static/js/main.cd3a4693.chunk.js"
+  ]
+}
