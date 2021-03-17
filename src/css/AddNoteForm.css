@@ -1,0 +1,74 @@
+.new_note {
+    display: block;
+    box-sizing: border-box;
+    position: fixed;
+    width: 40rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50%;
+    text-align: center;
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+.new_note_head {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #dfdfdf;
+    background-color: #181818;
+}
+
+.new_note_title {
+    background-color: #181818;
+    flex-grow: 1;
+    margin-right: 1rem;
+    color: #dfdfdf;
+    outline: none;
+}
+
+.btn-delete {
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #181818;
+    color: #dfdfdf;
+    opacity: 0.3;
+    outline: none;
+}
+
+.btn-delete:hover {
+    opacity: 1;
+}
+
+.new_note_body {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #dfdfdf;
+    min-height: 22rem;
+    text-align: left;
+    text-shadow: none;
+    background-color: #202020;
+}
+
+.new_note_body textarea {
+    background-color: #202020;
+    resize: none;
+    flex-grow: 1;
+    outline: none;
+    color: #dfdfdf;
+}
+
+.new_note_submit {
+    cursor: pointer;
+    width: fit-content;
+    align-self: flex-end;
+    text-align: end;
+    background-color: #202020;
+    outline: none;
+    color: #dfdfdf;
+}

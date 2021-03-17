@@ -1,0 +1,69 @@
+.note_list_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.note_item {
+    display: block;
+    box-sizing: border-box;
+    flex: 0 1 calc(25% - 2rem);
+    max-width: calc(25% - 2rem);
+    margin: 2rem 1rem 0;
+    font-size: 1.5rem;
+}
+
+.note_head {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #dfdfdf;
+    background-color: #181818;
+}
+
+.btn-delete {
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #181818;
+    color: #dfdfdf;
+    opacity: 0.3;
+    outline: none;
+}
+
+.btn-delete:hover {
+    opacity: 1;
+}
+
+.note_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 20rem;
+    height: fit-content;
+    padding: 1rem;
+    color: #dfdfdf;
+    text-shadow: none;
+    background-color: #202020;
+}
+
+.note_content {
+    margin-bottom: 1rem;
+    line-height: 1.7rem;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.note_date {
+    color: #858585;
+    font-size: 1.2rem;
+}
+
+.note_list_welcome {
+    padding: 2rem;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 3px 3px 10px #000;
+}
